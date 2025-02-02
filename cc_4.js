@@ -77,7 +77,11 @@ function calculateTax(amount, taxRate) {
 let taxAmount =calculateTax(100, 0.07);
 console.log(`Tax Amount: $${taxAmount}`);
 
+// Task 9 Function Expressions, Scenario: Discount Application
 
+function applyDiscount(discount = 0.05, ...prices) { // Default discount 5%
+    return prices.map(price => price * (1 - discount));
+}
 
-
-
+let discountedPrices = applyDiscount(0.1, 100, 200, 300);
+console.log(discountedPrices); 
