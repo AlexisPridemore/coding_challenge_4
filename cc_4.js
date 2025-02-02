@@ -21,6 +21,15 @@ for (let i = 0; i < sales.length; i++) {
 
 console.log('Total sales: $${totalSales}');
 
+// Task 3, Scenario: Inventory Depletion
+
+let stock = 40;
+while (stock > 0) {
+    console.log(`Stock remaining: ${stock}`);
+    stock--;
+}
+
+console.log("Inventory Depleted.")
 
 
 
