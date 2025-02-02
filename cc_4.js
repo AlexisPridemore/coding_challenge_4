@@ -53,7 +53,7 @@ for (let key in employee) {     // iterate through the object properties
     console.log('${key}: ${employee[key]}');
 }
 
-// Task 6 : For...Of Loop, Scenario: Product Listings
+// Task 6 For...Of Loop, Scenario: Product Listings
 
 let products = ["Basketball", "Football", "Volleyball"];   //Array of Products
 
@@ -61,6 +61,13 @@ for (let product of products) {     // loop to display each product
     console.log('Product: ${product}');
 }
 
+// Task 7 forEach() Method, Scenario: Order Processing
+
+let orders = [456, 789, 101];   //array of order IDs
+
+orders.forEach(order => {       //Logging of order IDs
+    console.log('order ID: ${order}')
+});
 
 
 
