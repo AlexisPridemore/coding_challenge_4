@@ -23,7 +23,7 @@ console.log('Total sales: $${totalSales}');
 
 // Task 3, Scenario: Inventory Depletion
 
-let stock = 40;
+let stock = 40;      //use loop to decrease stock until it reaches zero
 while (stock > 0) {
     console.log(`Stock remaining: ${stock}`);
     stock--;
@@ -33,7 +33,7 @@ console.log("Inventory Depleted.")
 
 // Task 4 Do...While Loop, Scenario: Customer Survey
 
-let responses = 0; 
+let responses = 0;    //collect responses
 do {
     responses++;
     console.log('Response Count: ${responses}');
@@ -41,6 +41,17 @@ do {
 
 console.log("Survey completed.");
 
+// Task 5 For...In Loop, Scenario: Employee Information
+
+let employee = {     //Declare object with properties
+    name: "Tom Holland",
+    position: "Manager",
+    salary: 125000
+};
+
+for (let key in employee) {     // iterate through the object properties
+    console.log('${key}: ${employee[key]}');
+}
 
 
 
