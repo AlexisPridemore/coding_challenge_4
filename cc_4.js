@@ -31,6 +31,15 @@ while (stock > 0) {
 
 console.log("Inventory Depleted.")
 
+// Task 4 Do...While Loop, Scenario: Customer Survey
+
+let responses = 0; 
+do {
+    responses++;
+    console.log('Response Count: ${responses}');
+} while (responses < 3);
+
+console.log("Survey completed.");
 
 
 
