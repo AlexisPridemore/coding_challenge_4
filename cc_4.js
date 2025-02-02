@@ -65,9 +65,7 @@ for (let product of products) {     // loop to display each product
 
 let orders = [456, 789, 101];   //Array of order IDs
 
-orders.forEach(order => {       //Logging of order IDs
-    console.log('order ID: ${order}')
-});
+orders.forEach(order => console.log(order));    
 
 // Task 8 Function Declaration, Scenario: Tax Calculation
 
@@ -85,3 +83,6 @@ function applyDiscount(discount = 0.05, ...prices) { // Default discount 5%
 
 let discountedPrices = applyDiscount(0.1, 100, 200, 300);
 console.log(discountedPrices); 
+
+// Task 10 Arrow Functions, Scenario: Loyalty Points
+
