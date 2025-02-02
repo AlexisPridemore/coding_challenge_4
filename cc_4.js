@@ -86,3 +86,12 @@ console.log(discountedPrices);
 
 // Task 10 Arrow Functions, Scenario: Loyalty Points
 
+const calculatePoints = (purchaseAmount) => {
+    return (purchaseAmount / 10); 
+};
+let points = calculatePoints(200);
+
+console.log('Loyalty earned points: ${points}');
+
+
+
