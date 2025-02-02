@@ -63,11 +63,20 @@ for (let product of products) {     // loop to display each product
 
 // Task 7 forEach() Method, Scenario: Order Processing
 
-let orders = [456, 789, 101];   //array of order IDs
+let orders = [456, 789, 101];   //Array of order IDs
 
 orders.forEach(order => {       //Logging of order IDs
     console.log('order ID: ${order}')
 });
+
+// Task 8 Function Declaration, Scenario: Tax Calculation
+
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+let taxAmount =calculateTax(100, 0.07);
+console.log(`Tax Amount: $${taxAmount}`);
+
 
 
 
