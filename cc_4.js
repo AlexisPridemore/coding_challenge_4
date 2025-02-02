@@ -53,6 +53,15 @@ for (let key in employee) {     // iterate through the object properties
     console.log('${key}: ${employee[key]}');
 }
 
+// Task 6 : For...Of Loop, Scenario: Product Listings
+
+let products = ["Basketball", "Football", "Volleyball"];   //Array of Products
+
+for (let product of products) {     // loop to display each product
+    console.log('Product: ${product}');
+}
+
+
 
 
 
